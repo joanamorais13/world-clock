@@ -1,5 +1,5 @@
 body{
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Inconsolata', monospace;
     background-color: #001014;
     background-image: url("globe.jpg");
     background-repeat: no-repeat;
@@ -33,6 +33,7 @@ body{
     font-size: 48px;
     font-weight: bold;
     font-weight: 400;
+    display: block;
 }
 
 .time small{
@@ -43,7 +44,7 @@ body{
 }
 
 .date{
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 select {
@@ -60,12 +61,12 @@ select:focus-visible {
     outline-width: 0;
 }
 
-
-
 h1{
     font-size: 46px;
-    font-weight: 200;
+    font-weight: 100;
+    letter-spacing: 25px;
     text-align: center;
+    margin-left: 25px;
 }
 
 
@@ -79,11 +80,13 @@ footer{
     text-align: center;
     font-size: 14px;
     color: rgb(0, 0, 0, 0.5);
+
 }
 
  a {
     text-decoration: none;
     color: #031015;
+    
  }
 
  a:hover {
