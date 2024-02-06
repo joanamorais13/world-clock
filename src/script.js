@@ -5,7 +5,7 @@ let nairobiDateElement = nairobiElement.querySelector(".date");
 nairobiTimeElement = nairobiElement.querySelector(".time");
 let nairobiTime = moment().tz("Africa/Nairobi");
 nairobiDateElement.innerHTML = nairobiTime.format("MMMM Do YYYY");
-nairobiTimeElement.innerHTML = nairobiTime.format("h:mm:ss [<small>]A[</small>]");
+nairobiTimeElement.innerHTML = nairobiTime.format("hh:mm:ss [<small>]A[</small>]");
 }
 
 let lisbonElement= document.querySelector("#lisbon");
@@ -14,7 +14,7 @@ let lisbonDateElement = lisbonElement.querySelector(".date");
 lisbonTimeElement = lisbonElement.querySelector(".time");
 let lisbonTime = moment().tz("Europe/Lisbon");
 lisbonDateElement.innerHTML = lisbonTime.format("MMMM Do YYYY");
-lisbonTimeElement.innerHTML = lisbonTime.format("h:mm:ss [<small>]A[</small>]");
+lisbonTimeElement.innerHTML = lisbonTime.format("hh:mm:ss [<small>]A[</small>]");
 }
 }
 
@@ -34,7 +34,7 @@ function updateCity (event){
     </div>
     <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small></div>
     </div>
-    <a href class="all-cities"="/">All cities</a>
+    <a href class="all-cities"="/">Back to all cities</a>
     `;
 }
 
