@@ -42,7 +42,7 @@ function updateCity (event){
     <h2>${cityName}</h2>
     <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
     </div>
-    <div class="time">${cityTime.format("h:mm")} <small>${cityTime.format("A")}</small></div>
+    <div class="time">${cityTime.format("hh:mm")} <small>${cityTime.format("A")}</small></div>
     </div>
     <a href class="all-cities"="/">Back to all cities</a>
     `;
