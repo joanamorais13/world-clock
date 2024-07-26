@@ -27,7 +27,8 @@ body{
 }
 
 .city:last-child{
-    border: none;}
+    border: none;
+}
 
 .time{
     font-size: 48px;
@@ -80,19 +81,22 @@ footer{
     text-align: center;
     font-size: 10px;
     color: rgb(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 20px 10px 10px 10px;
 
 }
 
- a {
+  a {
     text-decoration: none;
     color: #031015;
-    
  }
 
- a:hover {
+  a :hover {
      text-decoration: underline;}
 
-.all-cities{
+.all-cities {
     text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0, 0.5);
+    cursor: pointer;
 }
